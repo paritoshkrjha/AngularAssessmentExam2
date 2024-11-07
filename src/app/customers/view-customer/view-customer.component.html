@@ -1,0 +1,12 @@
+<h1>Customer Details</h1>
+<div>
+  <h2>{{ "Name: " + customerDetails?.name }}</h2>
+  <p>{{ "Email: " + customerDetails?.email }}</p>
+  <p>{{ "Phone " + customerDetails?.phone }}</p>
+  <p>{{ "Address" + customerDetails?.address }}</p>
+  <div id="button-group">
+    <button routerLink="../../customers" [class.seconary-button]="true">Back</button>
+    <button [class.edit-button]="true">Edit</button>
+    <button [class.delete-button]="true">Delete</button>
+  </div>
+</div>

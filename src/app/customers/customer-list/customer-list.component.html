@@ -1,0 +1,10 @@
+<div>
+  <p id="list--header">All Customers</p>
+  @if(customers.length <= 0){
+  <div id="empty-list">
+    <p>No customers found!</p>
+  </div>
+  } @else { @for (customer of customers; track customer.id) {
+  <app-customer-list-item [customer]="customer"></app-customer-list-item>
+  } }
+</div>
