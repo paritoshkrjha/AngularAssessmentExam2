@@ -1,5 +1,7 @@
 # AuthApp
 
+Deployed URL : [https://angular-assessment-exam2.vercel.app/](https://angular-assessment-exam2.vercel.app/auth/login)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
 ## Development server
